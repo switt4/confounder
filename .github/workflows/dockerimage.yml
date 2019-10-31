@@ -9,10 +9,6 @@ jobs:
   docker_deploy:
     runs-on: ubuntu-latest
 
-  build:
-
-    runs-on: ubuntu-latest
-
     steps:
     # Checkout correct branch
     - uses: actions/checkout@master
@@ -23,8 +19,8 @@ jobs:
     - name: Build & Deploy Docker dev image
       if: github.ref == 'refs/heads/dev'
       env:
-        DOCKER_HUB_USER: ${{ secrets.DOCKER_HUB_USER}}
-        DOCKER_HUB_KEY: ${{ secrets.DOCKER_HUB_KEY}}
+        DOCKER_HUB_USER: ${{ secrets.DOCKER_HUB_USER }}
+        DOCKER_HUB_KEY: ${{ secrets.DOCKER_HUB_KEY }}
       run: |
         echo 'Docker login'
         echo ''
