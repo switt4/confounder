@@ -3,7 +3,7 @@ name: Confounder Dev Deployment
 on:
   push:
     branches:
-      - dev
+      - ohbm
 
 jobs:
   docker_deploy:
@@ -17,7 +17,7 @@ jobs:
     
     # Build and deploy docker dev images
     - name: Build & Deploy Docker dev image
-      if: github.ref == 'refs/heads/dev'
+      if: github.ref == 'refs/heads/ohbm'
       env:
         DOCKER_HUB_USER: ${{ secrets.DOCKER_HUB_USER }}
         DOCKER_HUB_KEY: ${{ secrets.DOCKER_HUB_KEY }}
