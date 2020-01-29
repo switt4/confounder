@@ -29,10 +29,10 @@ jobs:
         echo 'Building docker image...'
         echo ''
         cd container
-        docker build . --tag switt4/confounder:dev
+        docker build . --tag switt4/confounder:ohbm
         echo ''
         echo 'Pushing docker image...'
         echo ''
-        docker push switt4/confounder:dev
+        docker push switt4/confounder:ohbm
         echo ''
         echo 'Finished deploying docker image.'
