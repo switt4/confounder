@@ -1,0 +1,70 @@
+{
+    "sixMotion": [
+        "trans_x",
+        "trans_y",
+        "trans_z",
+        "rot_x",
+        "rot_y",
+        "rot_z"
+    ],
+    "sixMotion-aCompCor00": [
+        "trans_x",
+        "trans_y",
+        "trans_z",
+        "rot_x",
+        "rot_y",
+        "rot_z",
+        "a_comp_cor_00"
+    ],
+    "sixMotion-tCompCor00": [
+        "trans_x",
+        "trans_y",
+        "trans_z",
+        "rot_x",
+        "rot_y",
+        "rot_z",
+        "t_comp_cor_00"
+    ],
+    "sixMotion-csf-wm": [
+        "trans_x",
+        "trans_y",
+        "trans_z",
+        "rot_x",
+        "rot_y",
+        "rot_z",
+        "csf",
+        "white_matter"
+    ],
+    "dvars": [
+        "dvars"
+    ],
+    "dvars-aCompCor00": [
+        "dvars",
+        "a_comp_cor_00"
+    ],
+    "dvars-tCompCor00": [
+        "dvars",
+        "t_comp_cor_00"
+    ],
+    "dvars-csf-wm": [
+        "dvars",
+        "csf",
+        "white_matter"
+    ],
+    "framewiseDisplacement": [
+        "framewise_displacement"
+    ],
+    "framewiseDisplacement-aCompCor00": [
+        "framewise_displacement",
+        "a_comp_cor_00"
+    ],
+    "framewiseDisplacement-tCompCor00": [
+        "framewise_displacement",
+        "t_comp_cor_00"
+    ],
+    "framewiseDisplacement-csf-wm": [
+        "framewise_displacement",
+        "csf",
+        "white_matter"
+    ]
+}
